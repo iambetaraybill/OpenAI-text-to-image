@@ -1,27 +1,23 @@
-# OpenAITextToImage
+# OpenAI Text To Image
+### Please :star: the Repo to support the project
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.1.
+----
 
-## Development server
+### Preview
+Enter the description of the image you want to generate. A.I. will generate for You!😊
+Made with Angular 14.![img-ELNc0ozGEwvsqelkwgZ9rs5c](https://user-images.githubusercontent.com/45901177/213918784-55b30c82-4428-4e6c-ad30-ccae56766ea6.png)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+### Create OpenAI API Key and Paste in environment.ts fie.
+EnJoY😋
 
-## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
-## Running unit tests
+https://user-images.githubusercontent.com/45901177/213918517-33b6929a-b28a-44f2-867a-5cb3e5771f87.mp4
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-## Running end-to-end tests
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+https://user-images.githubusercontent.com/45901177/213918535-6f844bc4-6970-4ed3-88eb-80dbbc777e17.mp4
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+*With 💕 : Arpan Sarkar*
