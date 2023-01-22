@@ -4,7 +4,7 @@
 
 export const environment = {
   production: false,
-  OPENAI_API_KEY: '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'
+  OPENAI_API_KEY: 'Your Api Key'
 };
 
 /*
