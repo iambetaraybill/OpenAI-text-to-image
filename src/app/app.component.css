@@ -103,3 +103,33 @@
   .spanner.show, .overlay.show {
       opacity: 1
   }
+  #textArea{
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 20px;
+    color: rebeccapurple;
+  }
+  #buttonDiv {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    width: fit-content;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+    font-family: sans-serif;
+}
+button {
+    background-color: palevioletred;
+    display: inline-block;
+    color: black;
+    letter-spacing: 2px;
+    text-decoration: none;
+    font-size: 1em;
+    overflow: hidden;
+}
+button:hover {
+    color: #111;
+    background: #39ff14;
+    box-shadow: 0 0 50px #39ff14;
+}

@@ -3,13 +3,32 @@
     <div class="row pt-2">
       <div class="col text-center">
         <h1> Generate <span>Image</span> from <span>Text</span></h1>
-        <input type="submit" (click)="hidden = !hidden">
+        <!-- <input type="submit" (click)="hidden = !hidden"> -->
       </div>
+    </div>
+    <div class="row mt-2">
+      <div class="col"></div>
+      <div class="col-6">
+        <div class="form-group">
+          <textarea class="form-control" id="textArea" rows="4" 
+          placeholder="Please Enter the description of the image you want to generate. A.I. will generate for You!😊"></textarea>
+        </div>
+      </div>
+      <div class="col"></div>
+    </div>
+    <div class="row mt-2">
+      <div class="col"></div>
+      <div class="col-6" >
+        <div class="form-group" style="float:right;" id="buttonDiv">
+          <button >Create</button>
+        </div>
+      </div>
+      <div class="col"></div>
     </div>
   </div>
 </div>
 <div class="footer mt-0 mb-0 pt-0 pb-0 text-center">
-  <span>Coded By: Arpan Sarkar</span>
+  <span> &copy; Arpan Sarkar {{ dateNow | date : 'yyyy'}}</span>
 </div>
 <div class="wrapper">
 

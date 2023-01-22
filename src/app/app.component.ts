@@ -10,7 +10,7 @@ import { reqBody } from './req-res.interface';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent implements OnInit{
-  title = 'OpenAI-text-to-image';
+  dateNow : Date = new Date();
   hidden: boolean = false;
   constructor(public http : HttpClient){
 
