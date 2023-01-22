@@ -10,7 +10,7 @@
       <div class="col"></div>
       <div class="col-6">
         <div class="form-group">
-          <textarea class="form-control" id="textArea" rows="4" 
+          <textarea class="form-control" id="textArea" rows="4"  [(ngModel)]="promtUser"
           placeholder="Please Enter the description of the image you want to generate. A.I. will generate for You!😊"></textarea>
         </div>
       </div>
@@ -20,8 +20,15 @@
       <div class="col"></div>
       <div class="col-6" >
         <div class="form-group" style="float:right;" id="buttonDiv">
-          <button >Create</button>
+          <button (click)="onClickButton()" [disabled]="hidden">Create</button>
         </div>
+      </div>
+      <div class="col"></div>
+    </div>
+    <div class="row mt-2" *ngIf="imgURL.length > 0">
+      <div class="col"></div>
+      <div class="col-6">
+        <img [src]="imgURL" class="img-fluid" >
       </div>
       <div class="col"></div>
     </div>

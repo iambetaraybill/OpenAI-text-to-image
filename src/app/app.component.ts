@@ -12,18 +12,26 @@ import { reqBody } from './req-res.interface';
 export class AppComponent implements OnInit{
   dateNow : Date = new Date();
   hidden: boolean = false;
+  imgURL: string = '';
+  promtUser: string = '';
   constructor(public http : HttpClient){
 
   }
 
   ngOnInit(): void {
-    // this.getImage();
+   
   }
-  // .subscribe(resp => {
-  //   console.log(resp.data[0].url);
-  // })
-  
-  
+  onClickButton(){
+    this.getImage();
+  }
+  getImage(){
+    this.hidden = true;
+    let val : reqBody = {prompt: this.promtUser, n: 1, size: '1024x1024'}
+    this.createImage(val).subscribe(resp => {
+      this.imgURL = resp.data[0].url;
+      this.hidden = false;
+  })
+  }
   
   createImage(inputBody: reqBody): Observable<any> {
     const headers = { 'Authorization': `Bearer ${environment.OPENAI_API_KEY}` };
